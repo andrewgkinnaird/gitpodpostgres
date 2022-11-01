@@ -1,6 +1,7 @@
 image:
   file: Dockerfile
 tasks:
-      
+  - init: npm install
+    command: npm run start 
 ports:
  - port: 8000
